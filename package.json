@@ -2,7 +2,7 @@
   "name": "connectwise-mcp-server",
   "version": "0.1.0",
   "description": "Model Context Protocol server for ConnectWise Manage API",
-  "type": "module",
+  "type": "commonjs",
   "main": "dist/index.js",
   "bin": {
     "connectwise-mcp-server": "dist/index.js"
