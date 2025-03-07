@@ -5,6 +5,7 @@ export CW_COMPANY_ID=microtech
 export CW_PUBLIC_KEY=ghkvdcrdQCqcJgBJ
 export CW_PRIVATE_KEY=4yZTDHWBXdmGa13j
 export CW_URL=api-na.myconnectwise.net
-export PORT=14567
+export PORT=3456
 
-node dist/index.js
+chmod +x mcp-server.js
+node mcp-server.js
